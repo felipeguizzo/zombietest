@@ -1,0 +1,44 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/resources">Lista de resources</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{pageTitle}}</li>
+    </ol>
+  </nav>
+  
+  <form #frm="ngForm" (ngSubmit)="submitForm(frm)">
+    <input type="text" class="form-control" name="id" [ngModel]="resource?.id" hidden>
+    
+    <div class="form-group">
+      <label for="txtTitle">Título</label>
+      <input type="text" class="form-control" #title="ngModel" name="title" [ngModel]="resource?.title" minlength="3" maxlength="60" required>
+      <div class="text-danger" *ngIf="!title.valid && title.touched">
+        <div>campo obrigatório, deve ter no minímo 3 caracteres e no máximo 60 caracteres</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtDescription">Descrição</label>
+        <input type="text" class="form-control" #title="ngModel" name="description" [ngModel]="resource?.description" minlength="3" maxlength="500" required>
+        <div class="text-danger" *ngIf="!title.valid && title.touched">
+          <div>campo obrigatório, deve ter no minímo 3 caracteres e no máximo 500 caracteres</div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtQuantity">Quantidade</label>
+        <input type="number" class="form-control" #title="ngModel" name="quantity" [ngModel]="resource?.quantity" minlength="0" required>
+        <div class="text-danger" *ngIf="!title.valid && title.touched">
+          <div>campo obrigatório, deve ser maior que 0</div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtObservation">Observação</label>
+        <input type="text" class="form-control" #title="ngModel" name="observation" [ngModel]="resource?.observation" minlength="3" maxlength="1024" required>
+        <div class="text-danger" *ngIf="!title.valid && title.touched">
+          <div>campo obrigatório, deve ter no minímo 3 caracteres e no máximo 1024 caracteres</div>
+        </div>
+      </div>
+
+    <button type="submit" [disabled]="!frm.valid" class="btn btn-primary">Gravar</button>
+  </form>

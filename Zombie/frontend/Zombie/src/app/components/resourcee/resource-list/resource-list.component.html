@@ -1,0 +1,28 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Lista de recursos</li>
+      <li class="breadcrumb-item active" aria-current="page"><a routerLink="/resource/insert">Adicionar Novo</a></li>
+    </ol>
+    </nav>
+    
+    <table class="table">    
+      <thead>
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Quantidade</th>
+          <th scope="col">#</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let resource of resources">
+          <td>{{resource.title}}</td>
+          <td>{{resource.description}}</td>
+          <td>{{resource.quantity}}</td>
+          <td>
+            <a [routerLink]="['', 'resource', resource?.id, 'update']" class="btn btn-outline-info btn-sm mr-2">Editar</a>
+            <a [routerLink]="['', 'resource', resource?.id, 'delete']" class="btn btn-outline-danger btn-sm mr-2">Deletar</a>     
+          </td>
+        </tr>
+      </tbody>
+    </table>

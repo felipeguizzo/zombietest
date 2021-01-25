@@ -1,0 +1,12 @@
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\bin\Debug\netcoreapp3.1\Zombie.Data.deps.json
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\bin\Debug\netcoreapp3.1\Zombie.Data.dll
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\bin\Debug\netcoreapp3.1\Zombie.Data.pdb
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\bin\Debug\netcoreapp3.1\Zombie.Bussiness.dll
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\bin\Debug\netcoreapp3.1\Zombie.Bussiness.pdb
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.csprojAssemblyReference.cache
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.AssemblyInfoInputs.cache
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.AssemblyInfo.cs
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.csproj.CoreCompileInputs.cache
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.csproj.CopyComplete
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.dll
+C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Data\obj\Debug\netcoreapp3.1\Zombie.Data.pdb

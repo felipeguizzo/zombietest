@@ -1,0 +1,7 @@
+<div class="jumbotron">
+    <h1 class="mb-2">Deseja realmente deletar o recurso?</h1>
+    <p class="lead"><strong>Título:</strong> {{resource?.title}}</p>
+    <hr class="my-4">
+    <a routerLink="/resources" class="btn btn-primary mr-3" style="width: 100px;">Não</a>
+    <button type="button" (click)="deleteResource()" class="btn btn-danger" style="width: 100px;">Sim</button>
+</div>
