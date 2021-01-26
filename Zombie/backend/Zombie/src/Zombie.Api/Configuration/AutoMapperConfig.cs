@@ -13,7 +13,12 @@ namespace Zombie.Api.Configuration
         public AutomapperConfig()
         {
             CreateMap<Resource, ResourceDto>().ReverseMap();
-            CreateMap<Movement, MovementDto>().ReverseMap();
+
+            CreateMap<Movement, MovementDto>()
+                .ForMember(x => x.resource, map => map.MapFrom(x => x.Resource));
+
+            CreateMap<MovementDto, Movement>()
+                .ForMember(x => x.IdResource, map => map.MapFrom(x => x.resource.id));
         }
     }
 }

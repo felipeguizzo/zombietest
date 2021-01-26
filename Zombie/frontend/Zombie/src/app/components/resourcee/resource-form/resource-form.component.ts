@@ -95,7 +95,7 @@ export class ResourceFormComponent implements OnInit {
   }
 
   private errorSaving(error: any) {
-    alert(error.body.error);
+    alert(error.error.message);
   }
 
   private updatePageTitle() {

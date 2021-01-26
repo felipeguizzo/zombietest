@@ -1,0 +1,25 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Lista de movimentos</li>
+      <li class="breadcrumb-item active" aria-current="page"><a routerLink="/movements/insert">Adicionar Novo</a></li>
+    </ol>
+    </nav>
+    
+    <table class="table">    
+      <thead>
+        <tr>
+          <th scope="col">Tipo</th>
+          <th scope="col">Recurso</th>
+          <th scope="col">Requisitante</th>
+          <th scope="col">Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let movement of Movements">
+          <td>{{movement.type == 1 ? 'Entrada' : 'Saida'}}</td>
+          <td>{{movement.resource.title}}</td>
+          <td>{{movement.requesterName}}</td>
+          <td>{{movement.quantity}}</td>
+        </tr>
+      </tbody>
+    </table>

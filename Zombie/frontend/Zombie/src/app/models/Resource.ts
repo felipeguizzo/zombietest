@@ -9,5 +9,4 @@ export class Resource {
     description?: string;
     quantity?: number;
     observation?: string;
-    // movements: Movement[]
 }

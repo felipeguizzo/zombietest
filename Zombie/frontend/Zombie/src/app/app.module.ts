@@ -9,13 +9,17 @@ import { ResourceDeleteComponent } from './components/resourcee/resource-delete/
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MovementListComponent } from './components/movements/movement-list/movement-list.component';
+import { MovementFormComponent } from './components/movements/movement-form/movement-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResourceFormComponent,
     ResourceListComponent,
-    ResourceDeleteComponent
+    ResourceDeleteComponent,
+    MovementListComponent,
+    MovementFormComponent
   ],
   imports: [
     BrowserModule,

@@ -20,7 +20,6 @@ namespace Zombie.Bussiness.Models
         [MaxLength(1024, ErrorMessage = "Este campo deve conter no máximo 1024 caracteres")]
         public string Observation { get; set; }
 
-        public virtual List<Movement> Movements {get; set; }
     }
 
 }

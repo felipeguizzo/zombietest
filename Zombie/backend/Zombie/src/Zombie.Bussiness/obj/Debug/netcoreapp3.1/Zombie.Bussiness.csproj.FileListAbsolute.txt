@@ -7,3 +7,12 @@ C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie
 C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.dll
 C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.pdb
 C:\Users\fe_do\cursos\zombietest\zombietest.git\zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.csprojAssemblyReference.cache
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\bin\Debug\netcoreapp3.1\Zombie.Bussiness.deps.json
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\bin\Debug\netcoreapp3.1\Zombie.Bussiness.dll
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\bin\Debug\netcoreapp3.1\Zombie.Bussiness.pdb
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.AssemblyInfoInputs.cache
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.AssemblyInfo.cs
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.csproj.CoreCompileInputs.cache
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.dll
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.pdb
+C:\ZombieTest\Zombie\backend\Zombie\src\Zombie.Bussiness\obj\Debug\netcoreapp3.1\Zombie.Bussiness.csprojAssemblyReference.cache

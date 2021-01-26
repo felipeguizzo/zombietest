@@ -12,8 +12,10 @@ namespace Zombie.Api.Dtos
 
         public MovimentationType type { get; set; }
 
-        public int quantity { get; set; }
+        public int? quantity { get; set; }
 
         public string requesterName { get; set; }
+
+        public ResourceDto resource { get; set; }
     }
 }

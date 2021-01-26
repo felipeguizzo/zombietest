@@ -17,6 +17,5 @@ namespace Zombie.Api.Dtos
 
         public string observation { get; set; }
 
-        public virtual List<MovementDto> movements { get; set; }
     }
 }

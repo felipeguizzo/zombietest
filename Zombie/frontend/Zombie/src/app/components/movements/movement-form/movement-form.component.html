@@ -1,0 +1,44 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink="/movements">Lista de movements</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{pageTitle}}</li>
+  </ol>
+</nav>
+
+<form #frm="ngForm" (ngSubmit)="submitForm(frm)" *ngIf="movement">
+  <input type="text" class="form-control" name="id" [ngModel]="movement?.id" hidden>
+
+  <div class="form-group">
+    <label for="type">Status</label>
+    <select class="form-control" name="type" [(ngModel)]="movement.type">
+      <option [value]="1" [selected]="movement.type == 1">Entrada</option>
+      <option [value]="2" [selected]="movement.type == 2">Saída</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <select class="form-control" id="resource" name="resource" [(ngModel)]="movement.resource">
+      <option [ngValue]="resource" *ngFor="let resource of resourceList">{{resource.title}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="txtDescription">Requisitante</label>
+    <input type="text" class="form-control" #requesterName="ngModel" name="requesterName"
+      [ngModel]="movement?.requesterName" minlength="3" maxlength="275" required>
+    <div class="text-danger" *ngIf="!requesterName.valid && requesterName.touched">
+      <div>campo obrigatório, deve ter no minímo 3 caracteres e no máximo 275 caracteres</div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="txtQuantity">Quantidade</label>
+    <input type="number" class="form-control" #quantity="ngModel" name="quantity" [ngModel]="movement?.quantity"
+      minlength="0" required>
+    <div class="text-danger" *ngIf="!quantity.valid && quantity.touched">
+      <div>campo obrigatório, deve ser maior que 0</div>
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="!frm.valid" class="btn btn-primary">Gravar</button>
+</form>
